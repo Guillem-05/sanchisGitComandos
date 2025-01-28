@@ -1,0 +1,18 @@
+git init
+echo "# Guillem" >> readme.md
+git add readme.md 
+git commit -m "primer commit"
+touch respuestas.txt
+git add respuestas.txt 
+git commit -m "añadiendo respuestas"
+git branch -M main
+git remote add origin https://github.com/Guillem-05/sanchisGitComandos.git
+git push -u origin main
+git push
+git add respuestas.txt
+git commit -m "añadiendo respuestas"
+git Branch primeras
+git checkout primeras
+git add datos.txt
+git commit -m "añadiendo datos.txt"
+grep -i "juan" *
