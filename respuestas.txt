@@ -16,3 +16,5 @@ git checkout primeras
 git add datos.txt
 git commit -m "añadiendo datos.txt"
 grep -i "juan" *
+grep -n "juan" *
+grep -c "PROG" *
